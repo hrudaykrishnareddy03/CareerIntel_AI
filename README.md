@@ -1,4 +1,4 @@
-CareerIntel AI
+# CareerIntel AI
 
 Agentic AI Career Intelligence and Job Discovery System
 
