@@ -8,7 +8,7 @@ The system uses LangChain, Groq, tool calling, and external APIs to research a r
 
 Instead of performing a simple keyword search, CareerIntel AI uses an AI agent that can decide when to use specialized tools to gather career intelligence and job opportunities.
 
-Key Features
+## Key Features
 
 Agentic AI Architecture
 
@@ -16,37 +16,37 @@ Uses LangChain's agent framework to orchestrate multiple tools.
 
 Enables the LLM to decide which tool should be used based on the user's request.
 
-AI-Powered Job Discovery
+## AI-Powered Job Discovery
 
 Searches real-world job listings using the JSearch API through RapidAPI.
 
 Supports skill-based and location-based job searches.
 
-Skill Demand Research
+## Skill Demand Research
 
 Uses a dedicated skill-demand tool to research industry demand, salary insights, and career trends.
 
-Tool Calling
+## Tool Calling
 
 Demonstrates function/tool calling with an LLM.
 
 Connects an LLM to external data sources and APIs.
 
-Early-Career Job Filtering
+## Early-Career Job Filtering
 
 Searches for full-time and internship opportunities.
 
 Supports job requirements targeting candidates with limited or no professional experience.
 
-Location-Based Search
+## Location-Based Search
 
 Allows users to search for opportunities based on a specific location.
 
-Job Application Links
+## Job Application Links
 
 Extracts job titles, company names, locations, descriptions, and application URLs.
 
-LLM-Powered Career Assistant
+# LLM-Powered Career Assistant
 
 Combines career research with job discovery into a single AI workflow.
 
@@ -207,9 +207,9 @@ model = init_chat_model(
     api_key=groq_api_key
 )
 
-Available Tools
+## Available Tools
 
-1. Skill Demand Tool
+### 1. Skill Demand Tool
 
 The skill-demand tool is designed to provide information related to:
 
@@ -221,7 +221,7 @@ Career trends
 
 Career relevance
 
-2. Search Jobs Tool
+### 2. Search Jobs Tool
 
 The job-search tool retrieves job listings based on:
 
@@ -273,7 +273,7 @@ AI Engineer Opportunities
    Apply:
    https://example.com/job
 
-Installation
+## Installation
 
 Clone the repository:
 
@@ -333,7 +333,7 @@ response = agent.invoke({
     ]
 })
 
-Target Users
+## Target Users
 
 CareerIntel AI is particularly useful for:
 
@@ -347,9 +347,7 @@ Students exploring career paths
 
 Candidates searching for internships
 
-Use Cases
-
-Career Exploration
+## Career Exploration
 
 What is the demand for Engineers?
 
@@ -405,7 +403,7 @@ Multi-agent career research
 
 RAG-based career knowledge base
 
-Project Summary
+## Project Summary
 
 CareerIntel AI demonstrates how LLMs can interact with external tools and APIs to perform real-world tasks.
 
@@ -431,7 +429,7 @@ Job Search Automation
 
 Agentic Workflows
 
-Keywords
+## Keywords
 
 AI Agent
 Generative AI
@@ -469,7 +467,7 @@ CareerIntel-AI/
 ├── requirements.txt
 └── .gitignore
 
-Disclaimer
+## Disclaimer
 
 CareerIntel AI retrieves job information from external APIs.
 
@@ -497,10 +495,10 @@ AI Agents
 
 Agentic Systems
 
-Support
+## Support
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
-License
+## License
 
 This project is intended for educational and portfolio purposes.
